@@ -8,7 +8,7 @@ Since we have 2 datasets, we will aggregate the data by joining on the movie nam
 4) normalize the numerical data
 5) encode the categorical data using one-hot encoding because there is no ordering amongst the categorical variables
 
-## Milestone 2 Results and Next Steps
+## Milestone 3 Results and Next Steps
 
 ***Where does your model fit in the fitting graph.***
 
