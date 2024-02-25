@@ -10,6 +10,8 @@ Since we have 2 datasets, we will aggregate the data by joining on the movie nam
 
 ## Milestone 3 Results and Next Steps
 
+<img width="537" alt="Screenshot 2024-02-25 at 3 37 58 PM" src="https://github.com/Ai-Albert/cse151a_project/assets/114367462/cc4ccb93-fb0d-404f-bb2f-025e5d46bf02">
+
 ***Where does your model fit in the fitting graph.***
 
 The difference in mse between train and test isn't large so there's no sign of overfitting.
