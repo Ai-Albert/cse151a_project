@@ -31,12 +31,15 @@ We could add an epsilon to shift the linear regression line for better accuracy.
 ## Milestone 4 Results and Next Steps
 
 ***How does our model compare to the first model***
+
 We thought the logistic regression model would be better than linear regression since it uses the sigmoid function which is used for binary classification, but it ended up not being better at all.
 
 ***What is your plan for the next model and why?***
+
 We need a more flexible model to fit the training data, and next time we'd make a neural network such as a gradient descrent with relu and softmax activation for this classification task.
 
 ***Conclusion section: What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?***
+
 The model had a slightly worse accuracy, compared to the first model (accuracy around 0.75 for testing dataset and 0.72 for training dataset). This model did not improve from the first model we tested. 
 
 To improve our accuracy we want to attempt a more flexible model, with a neural network, so we can work with different activation functions for this task.
