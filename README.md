@@ -16,7 +16,7 @@ be useful for the purpose of finding good movies to watch.
 
 **B. Figures**
 
-> ![](media/image5.png){width="6.5in" height="6.152777777777778in"}
+> ![](images/image5.png){width="6.5in" height="6.152777777777778in"}
 >
 > *Figure 1 - Pair plot of the cleaned dataset*
 >
@@ -24,7 +24,7 @@ be useful for the purpose of finding good movies to watch.
 > \`\`\`Meta Score\`\`\`, \`\`\`Votes\`\`\`, \`\`\`Rating\`\`\` columns
 > and how they relate to the \`\`\`winner\`\`\` column.
 >
-> ![](media/image4.png){width="5.572916666666667in"
+> ![](images/image4.png){width="5.572916666666667in"
 > height="4.354166666666667in"}
 >
 > *Figure 2 - Heatmap of the cleaned dataset*
@@ -150,14 +150,14 @@ II. **Model 2**
 > 0.72 for the training dataset). This model did not improve from the
 > first model we tested.
 >
-> ![](media/image3.png){width="3.2164293525809273in"
+> ![](images/image3.png){width="3.2164293525809273in"
 > height="2.032312992125984in"}
 
 III. **Model 3**
 
 > The neural network model performed about the same as the second model
 > (accuracy 0.75 for the testing dataset and 0.716 for the training
-> dataset)![](media/image1.png){width="6.5in" height="1.25in"}
+> dataset)![](images/image1.png){width="6.5in" height="1.25in"}
 >
 > However, something we\'ve noticed was that our neural network
 > predicted all 0s. This is saying that there is no meaning in the
