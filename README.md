@@ -136,10 +136,12 @@ V.  **Model 3**
 
 I.  **Model 1**
 
-> [The linear regression model was not very accurate (accuracy around
+> The linear regression model was not very accurate (accuracy around
 > 0.75 for the testing dataset and 0.73 for the training dataset), and
 > this ended up being our best
-> model.]{.mark}![](images/image1.png)
+> model.
+
+> ![](images/image1.png)
 
 II. **Model 2**
 
