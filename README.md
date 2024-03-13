@@ -139,8 +139,7 @@ I.  **Model 1**
 > [The linear regression model was not very accurate (accuracy around
 > 0.75 for the testing dataset and 0.73 for the training dataset), and
 > this ended up being our best
-> model.]{.mark}![](media/image1.png){width="2.9739588801399823in"
-> height="2.0749857830271217in"}
+> model.]{.mark}![](images/image1.png)
 
 II. **Model 2**
 
@@ -149,14 +148,13 @@ II. **Model 2**
 > 0.72 for the training dataset). This model did not improve from the
 > first model we tested.
 >
-> ![](images/image4.png){width="3.2164293525809273in"
-> height="2.032312992125984in"}
+> ![](images/image5.png)
 
 III. **Model 3**
 
 > The neural network model performed about the same as the second model
 > (accuracy 0.75 for the testing dataset and 0.716 for the training
-> dataset)![](images/image5.png){width="6.5in" height="1.25in"}
+> dataset)![](images/image4.png)
 >
 > However, something we\'ve noticed was that our neural network
 > predicted all 0s. This is saying that there is no meaning in the
