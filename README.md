@@ -11,8 +11,7 @@ topic, which utilized a past Oscar nominations dataset and IMDB movie
 dataset. Analyzing this data and creating models would allow us to find
 better movies to watch if we can predict whether a movie will be
 considered for the Oscars. Since Oscar nominations are known to
-generally be "good" movies, based on various factors, this project would
-be useful for the purpose of finding good movies to watch.
+generally be "good" movies, based on various factors, this project could be useful for finding good movies to watch.
 
 **B. Figures**
 
@@ -156,7 +155,21 @@ III. **Model 3**
 
 > The neural network model performed about the same as the second model
 > (accuracy 0.75 for the testing dataset and 0.716 for the training
-> dataset)![](images/image4.png)
+> dataset)
+>
+IV. **Model 4**
+> After running out models since we had done analysis on our data and pre-processed 
+> our data. We decided to try other models to see if they could learn how to classify 
+> something beyond the baseline. KNN and Soft Decision Trees were attempted but
+> performed worse than other models. The only model that was able to learn how to classify any 1’s ended up being a Random 
+> Forest Classifier. It achieved an accuracy of 77. Higher than all the other models. Once again, we stipulate that this is of marginal > significance. It is still true we could find creative ways to solve this problem. We did not try a pipeline to see if chaining models 
+> together could be a better solution. Also, we could do more EDA and see if one hot encoding and running our model could lead to > a better performance. 
+
+
+RandomForestClassifier(max_depth=40, min_samples_leaf=4, min_samples_split=20,
+                       n_estimators=500, random_state=42)
+
+> ![](images/image4.png)
 >
 > However, something we\'ve noticed was that our neural network
 > predicted all 0s. This is saying that there is no meaning in the
@@ -249,7 +262,12 @@ V.  **Model 3**
 > need for more sophisticated models or richers datasets to reveal any
 > predictive patterns that truly indicate Oscar winners potentials.
 
-VI. **Evaluation and Reflection**
+VI. Model 4
+
+As our data had been preprocessed and everything was basically plug in play. We were interested in experimenting with different models to try to improve accuracy. Since we knew our baseline performance was 75\%. We knew we needed to train and get the model to consider and learn other features to predict something else beside’s zero. So we eventually landed on a Random Forest Classifier, due to the averaging/bagging of multiple trees and the reduction in overfitting, Random Forest can achieve higher accuracy than individual decision trees. Random Forest can provide insights into which features are important in making predictions, which can be useful for feature selection and understanding the problem better.
+
+
+VII. **Evaluation and Reflection**
 
 > There are many potential reasons for why the model's were unable to
 > predict the Oscar winners. One potential reason is that the awards are
@@ -294,26 +312,7 @@ Visual Effects, etc.) was lumped in with every other winner. If we focus
 on a single category, like Best Picture, then it might be more likely
 that we find a pattern that could be borne out in the data.
 
-**G. Collaboration** ~~section: This is a statement of contribution by
-each member. This will be taken into consideration when making the final
-grade for each member in the group. Did you work as a team? was there a
-team leader? project manager? coding? writer? etc. Please be truthful
-about this as this will determine individual grades in participation.
-There is no job that is better than the other. If you did no code but
-did the entire write up and gave feedback during the steps and
-collaborated then you would still get full credit. If you only coded but
-gave feedback on the write up and other things, then you still get full
-credit. If you managed everyone and the deadlines and setup meetings and
-communicated with teaching staff only then you get full credit. **Every
-role is important as long as you collaborated and were integral to the
-completion of the project. If the person did nothing. they risk getting
-a big fat 0.** Just like in any job, if you did nothing, you have the
-risk of getting fired. Teamwork is one of the most important qualities
-in industry and academia!!!~~
-
-a.  ~~Start with Name: Title: Contribution. If the person contributed
-    nothing then just put in writing: Did not participate in the
-    project.~~
+**G. Collaboration** 
 
 Albert Ai:
 
