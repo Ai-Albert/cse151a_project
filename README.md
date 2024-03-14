@@ -314,7 +314,7 @@ that we find a pattern that could be borne out in the data.
 
 **G. Collaboration** 
 
-Albert Ai:
+Albert Ai: Coding, Project Manager: made the Github repo, helped with coding for data preprocessing phase, and helped lead the meeting and wrote the code for the 2nd model (logistic regression model).
 
 Samantha Lin: Project manager, Coding, writer: organized some meetings,
 helped with coding during data preprocessing, worked with others to code
